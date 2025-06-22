@@ -537,7 +537,7 @@ TARGET_DEVICES += tplink_tl-xdr6088
 
 define Device/tplink_tl-xdr4288
   DEVICE_MODEL := TL-XDR4288
-  DEVICE_DTS := mt7986a-tl-xdr4288
+  DEVICE_DTS := mt7986a-tplink-tl-xdr4288
   $(call Device/tplink_tl-common)
 endef
 TARGET_DEVICES += tplink_tl-xdr4288
